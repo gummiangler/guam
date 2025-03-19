@@ -1,0 +1,41 @@
+.button8 {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    border: 2px;
+    color: black;
+    background-color:lightgray ;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.button:hover {
+    background-color: darkgray;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+body {
+    color: black;
+    background-color:lightblue;
+    font-family: Lato, Arial;
+    text-align: left;
+} 
+p {
+    font-size:12pt;
+}   
+h1 {
+    color: Black;
+    text-align: center
+    
+}
+.Stützpunkt{
+    width:45%;
+    height:600px;
+    margin-top:10px;
+}
+.USA {
+    width: 45%;
+    float: right;
+}

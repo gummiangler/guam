@@ -1,0 +1,108 @@
+html {
+    background-image: url("https://th.bing.com/th/id/R.70260ecfab6136d1ad0e70f40587e42c?rik=Uosv4E5Q1mOFGw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fPlain-light-blue-background-1920x1080.jpg&ehk=8Ya%2flkzPUU7R2YSf%2fJ6KbvEJaVsgAI3f1TGzoVTlBdM%3d&risl=&pid=ImgRaw&r=0");
+    background-position: center top;
+    font-family: Verdana;
+}
+.main {
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.button5 {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    border: 2px;
+    color: black;
+    background-color:lightgray ;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.button:hover {
+    background-color: darkgray;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+h1 {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 50px;
+}
+p {
+    font-size: 17px;
+}
+.textblöcke {
+    color: rgb(0, 0, 0);
+}
+.kultur_bild {
+    width: 1600px;
+    height: 840px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.herkunft {
+    background-color: rgb(207, 94, 202);
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 199.149px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    float: left;
+    width: 45%;
+    display: block;
+}
+.sprache {
+    background-color: rgb(92, 206, 88);
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 199.149px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    float: right;
+    width: 45%;
+    display: block;
+}
+.altersstruktur {
+    background-color: rgb(169, 192, 223);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 199.149px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    float: left;
+    width: 52%;
+    display: block;
+}
+.religion {
+    background-color: rgb(206, 161, 106);
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 199.149px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    float: right;
+    width: 38%;
+    display: block;
+}
