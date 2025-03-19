@@ -36,6 +36,7 @@ p {
 }
 .textblöcke {
     color: rgb(100, 100, 100);
+    background-color: rgb(100, 100, 100);
 }
 .kultur_bild {
     width: 1600px;
