@@ -1,109 +1,106 @@
 html {
-    background-image: url("https://th.bing.com/th/id/R.70260ecfab6136d1ad0e70f40587e42c?rik=Uosv4E5Q1mOFGw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fPlain-light-blue-background-1920x1080.jpg&ehk=8Ya%2flkzPUU7R2YSf%2fJ6KbvEJaVsgAI3f1TGzoVTlBdM%3d&risl=&pid=ImgRaw&r=0");
-    background-position: center top;
-    font-family: Verdana;
+    background: linear-gradient(135deg, #87CEFA, #4682B4);
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
+
 .main {
-    background-color: darkgray;
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 1100px;
+    margin: 50px auto;
 }
+
 .button5 {
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    font-size: 20px;
-    border: 2px;
-    color: black;
-    background-color:lightgray ;
-    border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin: 10px;
+    font-size: 18px;
+    border: 2px solid transparent;
+    color: #fff;
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    border-radius: 25px;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
 }
-.button:hover {
-    background-color: darkgray;
+
+.button5:hover {
+    background: linear-gradient(135deg, #45a049, #2e7d32);
     cursor: pointer;
-    transition: background-color 0.15s;
+    border: 2px solid #fff;
 }
+
 h1 {
-    color:whitesmoke;
+    color: #222;
     text-align: center;
     font-size: 50px;
+    margin-bottom: 25px;
 }
+
 p {
-    font-size: 17px;
+    font-size: 20px;
+    line-height: 1.8;
 }
+
 .textblöcke {
-    color: rgb(100, 100, 100);
-    background-color: rgb(100, 100, 100);
+    color: #444;
 }
+
 .kultur_bild {
-    width: 1600px;
-    height: 840px;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
     display: block;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+.herkunft, .sprache, .altersstruktur, .religion {
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px auto;
+    max-width: 700px;
+    min-height: 220px;
+}
+
 .herkunft {
-    background-color: rgb(207, 94, 202);
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    height: 199.149px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-radius: 20px;
-    float: left;
-    width: 45%;
-    display: block;
+    background: #d63384;
+    color: white;
 }
+
 .sprache {
-    background-color: rgb(92, 206, 88);
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    height: 199.149px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-radius: 20px;
-    float: right;
-    width: 45%;
-    display: block;
+    background: #28a745;
+    color: white;
 }
+
 .altersstruktur {
-    background-color: rgb(169, 192, 223);
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    height: 199.149px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-radius: 20px;
-    float: left;
-    width: 52%;
-    display: block;
+    background: #007bff;
+    color: white;
 }
+
 .religion {
-    background-color: rgb(206, 161, 106);
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    height: 199.149px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-radius: 20px;
-    float: right;
-    width: 38%;
-    display: block;
+    background: #fd7e14;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .herkunft, .sprache, .altersstruktur, .religion {
+        width: 95%;
+        min-height: 200px;
+    }
+    .main {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
 }
