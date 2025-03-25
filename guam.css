@@ -15,11 +15,11 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-end; /* Buttons nach unten verschieben */
+    align-items: flex-end;
     height: 95vh;
     max-width: 1200px;
     margin: auto;
-    padding-bottom: 150px; /* Mehr Abstand nach unten */
+    padding-bottom: 150px;
 }
 
 .button {
@@ -32,7 +32,7 @@ html {
     height: 70px;
     margin: 15px;
     transition: all 0.3s ease;
-    flex: 1 1 22%; /* Vier Buttons nebeneinander */
+    flex: 1 1 22%;
     max-width: 220px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -49,12 +49,12 @@ html {
 
 @media (max-width: 900px) {
     .button {
-        flex: 1 1 45%; /* Zwei Buttons pro Reihe auf kleineren Bildschirmen */
+        flex: 1 1 45%;
     }
 }
 
 @media (max-width: 600px) {
     .button {
-        flex: 1 1 80%; /* Ein Button pro Reihe auf sehr kleinen Bildschirmen */
+        flex: 1 1 80%;
     }
 }
